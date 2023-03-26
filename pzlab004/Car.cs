@@ -18,7 +18,7 @@ namespace pzlab004
         }
         public override string ToString()
         {
-            return "$ Marka " + Mark + " Cena " + Price;
+            return "$ Marka " + Mark + " Cena " + Price + "asfasdfasdfasd";
         }
     }    
 }
