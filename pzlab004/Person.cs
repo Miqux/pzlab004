@@ -32,7 +32,7 @@ namespace pzlab004
         {
             if (other.Cars.Sum(x => x.Price) > this.Cars.Sum(x => x.Price))
                 return 1;
-            return -1;
+            return -1;            
         }
 
         public int Compare(Person? x, Person? y)
